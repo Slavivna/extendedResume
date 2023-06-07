@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 130%;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/* right part */
+
+.right {
+  box-shadow: 11px 11px 25px rgba(183, 93, 183, 0.3);
+  padding: 80px 100px;
+  color: #990099;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.ukrai {
+  position: absolute;
+  left: 80%;
+  top: 7px;
+}
+.version {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+
+  border: 1px solid #b75db7;
+  border-radius: 0px 0px 16px 16px;
+}
+.version:hover {
+  cursor: pointer;
+  color: rgb(237, 23, 173);
+}
+.abou1 {
+  margin-bottom: 50px;
+}
+
+.abouth2 {
+  font-size: 32px;
+  line-height: 100%;
+  margin: 0 0 35px 0;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+}
+
+.years {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.insta {
+  text-decoration: none;
+  color: #990099;
+}
+
+/* Expierence */
+.exper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 57px;
+}
+.grosia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+.gros2 {
+  width: 506px;
+  margin-bottom: 15px;
+}
+.minus {
+  margin: 0;
+}
+
+/* ul { 
+        margin: 0;
+        padding: 0;
+    }*/
+
+/* sidebar */
+aside {
+  width: 670px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.sidebar {
+  background: #b75db7;
+  padding: 80px 0 0 0;
+  color: white;
+}
+
+.photo {
+  margin: 0 auto;
+  display: flex;
+  width: 516px;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  margin-bottom: 25px;
+}
+
+.rozm24 {
+  font-size: 24px;
+  margin: 0 0 35px 0;
+}
+.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.fon {
+  background: white;
+  border-radius: 20px;
+  color: #990099;
+  padding: 25px 35px;
+  margin-bottom: 20px;
+
+  font-size: 24px;
+  line-height: 100%;
+  width: 360px;
+}
+.fon [href] {
+  text-decoration: none;
+  color: #990099;
+}
+
+.hard {
+  margin: 50px 70px 0px 70px;
+}
+
+/* (.skills { 
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+})*/
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.kvadratu {
+  margin-top: 55px;
+}
